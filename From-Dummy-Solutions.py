@@ -28,6 +28,11 @@ print(i)
 
  #----------Dummy 3 
 
+def dummy_summarize(*args, **kwargs):
+    print("[args] Tuple Values:", args)
+    print("[kwargs] Key value pair:", kwargs)
+
+dummy_summarize(1, 2, 4, name="Norwegian", age=19)
 
  #----------Dummy 4
 
