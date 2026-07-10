@@ -1,6 +1,6 @@
+def dummy_divide (a, b):
+    if b==0:
+        raise ValueError("Division by zero is not allowed.")
+    return a / b
 
-def dummy_summarize(*args, **kwargs):
-    print("Positional arguments:", args)
-    print("Keyword arguments:", kwargs)
-
-dummy_summarize(1, 2, 4, name="Norwegian", age=19)
+print(dummy_divide(115, 2))

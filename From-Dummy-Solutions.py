@@ -34,10 +34,14 @@ def dummy_summarize(*args, **kwargs):
 
 dummy_summarize(1, 2, 4, name="Norwegian", age=19)
 
- #----------Dummy 4
+ #----------Dummy 4     
 
+def dummy_divide (a, b):
+    if b==0:
+        raise ValueError("Division by zero is not allowed.")
+    return a / b
 
-
+print(dummy_divide(115, 2))
 
  #----------Dummy 5
 
