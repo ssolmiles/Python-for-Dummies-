@@ -10,7 +10,7 @@ This repository draws problems from:
 - **[Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)** — Al Sweigart
 - **Python Puzzles** — Matthew Whiteside
 
-## 🔗 References
+##  References
 
 - Random Problems (various online sources)
 - Including Ai generated problems (Claude Ai and Chatgpt)
