@@ -27,6 +27,6 @@ A tiny log of daily progress before bedtime
 ### Dose #1 
  
 <img width="897" height="446" alt="Image" src="https://github.com/user-attachments/assets/3a423e6d-6b21-4a73-8dbf-254b689191ac" />
-> A little progress before I tuck myself into my dummy bed. Goodnight, code you tomorrow!
+A little progress before I tuck myself into my dummy bed. Goodnight, code you tomorrow!
 
 
