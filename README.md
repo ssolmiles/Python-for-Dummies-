@@ -30,3 +30,10 @@ A tiny log of daily progress before bedtime
 A little progress before I tuck myself into my dummy bed. Goodnight, code you tomorrow!
 
 
+
+### Dose #2
+<img width="720" height="458" alt="Image" src="https://github.com/user-attachments/assets/37463965-e154-4eec-a3ea-5e9c3d3d1554" />
+
+Disk taking care of my og files. 
+
+Another thing.. Dm me for goodies files ;p Nights! 

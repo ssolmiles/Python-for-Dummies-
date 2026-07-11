@@ -1,34 +1,42 @@
 import random
+import time
 
-guessesTaken = 0
+def displayIntro():
+    print('''You are in a land full of dragons. In front of you,
+you see two caves. In one cave, the dragon is friendly
+and will share his treasure with you. The other dragon
+is greedy and hungry, and will eat you on sight.''')
+    print()
 
-print("What is your name?", end=" ")
-myName = input()
+def chooseCave():
+    cave = ''
+    while cave != '1' and cave != '2':
+        print('Which cave will you go into? (1 or 2)')
+        cave = input()
 
-number = random.randint(1, 20)
-print("Well " + myName + ", I am thinking of a number between 1 and 20.")
+    return cave
 
-for guessesTaken in range(6):
-    print("Take a guess: ", end="")
-    guess = input()
+def checkCave(chosenCave):
+    print('You approach the cave...')
+    time.sleep(2)
+    print('It is dark and spooky...')
+    time.sleep(2)
+    print('A large dragon jumps out in front of you! He opens his jaws and...')
+    print()
+    time.sleep(2)
 
-    if not guess.isdigit():
-        print("Please enter a whole number.")
-        continue
+    friendlyCave = random.randint(1, 2)
 
-    guess = int(guess)
+    if chosenCave == str(friendlyCave):
+        print('Gives you his treasure!')
+    else:
+        print('Gobbles you down in one bite!')
 
-    if guess < number:
-        print("Your guess is lower.")
-    if guess > number:
-        print("Your guess is higher.")
-    if guess == number:
-        break
+playAgain = 'yes'
+while playAgain == 'yes' or playAgain == 'y':
+    displayIntro()
+    caveNumber = chooseCave()
+    checkCave(caveNumber)
 
-if guess == number:
-    guessesTaken = str(guessesTaken + 1)
-    print("You guessed it right, " + myName + "! You guessed my number in " + guessesTaken + " guesses.")
-
-if guess != number:
-    number = str(number)
-    print("Nope, the number I was thinking of was " + number)
+    print('Do you want to play again? (yes or no)')
+    playAgain = input()
