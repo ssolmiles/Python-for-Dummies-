@@ -145,3 +145,70 @@ while playAgain == 'yes' or playAgain == 'y':
     playAgain = input()
 
 #Boring game... Ill probably gonna look for some interesting games soon :p
+
+#----------"Dummy 8 
+
+products = {
+    'cpu':[1000, 20],
+    'charger':[300, 10],
+    'monitor':[850, 15],
+    'mouse':[500, 10]
+}
+
+#orders 
+order= []
+total= 0
+#display
+
+
+for items, info in products.items():
+    print(f" {items} price: {info[0]} and stocks: {info[1]}")
+
+while True: 
+    customer = input("what is your order? type 'done' if finish ordering: ")
+
+    if customer == 'done' or '':
+        break
+
+    if customer not in products: 
+        print(f'{customer} is not in the products')
+        continue
+
+    if products[customer][1] <= 0:
+        print(f"no stocks for{customer} ")
+        continue
+
+    order.append((customer, products[customer][0]))
+    total += products[customer][0]
+    print(f" {customer} is added to your cart price is {products[customer][0]}.")
+
+    products[customer][1] -= 1
+
+
+if total > 2000: 
+    discount = 0.10*total
+    total -= discount 
+    print(f"disocunt is applied {discount} total: {total}")
+
+
+print("final order:")
+for item, price in order:
+    print(f"  {item} - {price}")
+
+print(f"final total {total}")
+
+
+print(f'updated stock:')
+for items, info in products.items():    
+    print(f'item: {items} price: {info[0]} stocks {info[1]}')
+
+
+
+
+#----------"Dummy 9 
+
+#can't remember all the methods.. 
+print([m for m in dir(set) if not m.startswith('__')])
+
+
+#----------"Dummy 10
