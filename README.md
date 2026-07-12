@@ -37,3 +37,12 @@ A little progress before I tuck myself into my dummy bed. Goodnight, code you to
 Disk taking care of my og files. 
 
 Another thing.. Dm me for goodies files ;p Nights! 
+
+### Dose #3
+
+<img width="4064" height="3048" alt="Image" src="https://github.com/user-attachments/assets/2077f3f7-7fd1-4f3b-995e-ff0c3cc03b96" />
+
+Id read murakami only if i have money...
+
+I just started python puzzles :D It was fun lolz
+After a hundred i might start py leetc :p
