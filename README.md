@@ -46,3 +46,12 @@ Id read murakami only if i have money...
 
 I just started python puzzles :D It was fun lolz
 After a hundred i might start py leetc :p
+
+
+### Dose #4
+
+<img width="630" height="481" alt="Image" src="https://github.com/user-attachments/assets/f4435052-d0b7-4279-8596-3a5a3b704946" />
+
+Grinding my coc world... heard it's easier to play this now
+
+i took a break for a while... cus ive been working on my private repo
