@@ -146,3 +146,5 @@ print(reverse_first_five_positions([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 # puzzle 15
 def filter_palindromes(input_strs: list[str]) -> list[str]:
     return [w for w in input_strs if w == w[::-1]]
+
+print(filter_palindromes(["level", "world", "civic", "python"]))
