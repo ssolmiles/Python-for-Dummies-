@@ -102,3 +102,62 @@ def string_to_morse_code(input_str: str) -> str:
 
 print(string_to_morse_code("HELLO, WORLD!"))
 
+# puzzle 10
+
+def get_second_largest_number(input_nums: list[int])-> int | None: 
+    
+    if len(input_nums) < 2:
+        return None 
+    input_nums.sort()
+    return input_nums[-2]
+
+print(get_second_largest_number([14, 2, 3, 44, 5]))
+
+# puzzle 11 
+
+def format_number_with_commas(input_num: int) -> str:
+    return f"{input_num:,}"
+print(format_number_with_commas(1000000))
+
+
+
+# puzzle 12 
+def string_to_ascii(input_str: str) -> list[int]:
+    return [ord(char) for char in input_str]
+
+print(string_to_ascii("Programming puzzles!"))
+
+# puzzle 12.1 [bonus]
+def ascii_to_string(input_ascii_codes: list[int]) -> str:
+    return "".join(chr(code) for code in input_ascii_codes)
+
+print(ascii_to_string([80, 114, 111, 103, 114, 97, 109, 109, 105,
+110, 103, 32, 112, 117, 122, 122, 108, 101, 115, 33]))
+
+# puzzle 13
+def filter_strings_with_vowels(input_strs: list[str]) -> list[str]:
+    vowels = ['a', 'e', 'i', 'o', 'u']
+    result = []  
+
+    for word in input_strs:
+        for char in word:
+            if char in vowels:
+                result.append(word)
+                break  
+    return result
+
+print(filter_strings_with_vowels(["apple", "banana", "zyxvb"]))
+
+# puzzle 14 
+
+def reverse_first_five_positions(input_nums: list[int]) -> list[int]:
+    return input_nums[:5][::-1] + input_nums[5:]
+print(reverse_first_five_positions([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+
+# puzzle 15
+def filter_palindromes(input_strs: list[str]) -> list[str]:
+    result = []
+    for word in input_strs:
+        if word == word[::-1]:
+            result.append(word)
+    return result
