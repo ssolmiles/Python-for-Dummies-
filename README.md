@@ -55,3 +55,12 @@ After a hundred i might start py leetc :p
 Grinding my coc world... heard it's easier to play this now
 
 i took a break for a while... cus ive been working on my private repo
+
+
+### Dose 5
+
+<img width="720" height="681" alt="Image" src="https://github.com/user-attachments/assets/ce24ff88-90da-4b8d-9b3a-20ce3d375b91" />
+
+No words needed... joke 
+I love BISCOFF. Also received biscoff from my dawg midnightstarcat :>
+
